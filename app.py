@@ -1,5 +1,5 @@
 # Import dependencies - use Flask to render template, use PyMongo to interact with Mongo database, convert Jupyter notebook to Python
-rom flask import Flask, render_template
+from flask import Flask, render_template
 from flask_pymongo import PyMongo
 import scraping
 
